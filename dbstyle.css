@@ -1,0 +1,226 @@
+/* font*/
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* fonts end */
+
+
+/* common css */
+.db_heading_one {
+    font-family: "Nunito Sans", sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: .05em;
+    color: #a99575;
+    margin-bottom: 13px;
+    font-weight: 700;
+}
+.db_headingtwo {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 55px;
+    padding: 0 0 30px 0;
+    letter-spacing: 0;
+    color: #333;
+}
+.bd_para_text {
+    font-size: 18px;
+    font-weight: 400;
+    color: #7b7b7b;
+    line-height: 32px;
+    font-family: "Nunito Sans", sans-serif;
+}
+.db_shopnow {
+    border-radius: 0;
+    font-size: 14px;
+    margin-top: 50px;
+    background: #2c2c2c;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: .12em;
+    padding: 0px 40px;
+    line-height: 55px;
+    color: #fff;
+    border:none;
+}
+.db_shopnow:hover {
+    background: #a99575;
+}
+.db_space_one {
+    padding-top: 80px;
+}
+/* common css ends */
+
+/* Uniquely crafted just for you*/
+.bd_engement_content p {
+    width: 79%;
+}
+/* Uniquely crafted just for you ends */
+
+/* Together forever */
+.bd_wedding_content p{
+    width: 79%;
+}
+/* Together forever ends */
+
+/*  Why Buy From Belgium */
+.db_pfyou {
+    text-align: center;
+}
+.db_why_buy_belgium {
+    padding: 100px 0;
+    background: #f6f6f6;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.db_pfyou h5 {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    font-weight: 600;
+    margin-top: 10px;
+    font-family: "Nunito Sans", sans-serif;
+}
+.db_pfyou .bd_para_text {
+    margin-top: 20px;
+    width: 91%;
+}
+.db_pfyou img {
+    margin-bottom: 10px;
+}
+.db_titel_why {
+    text-align: center;
+}
+.db_learnmore {
+    text-align: center;
+    margin-top: 50px;
+}
+.db_learnmore h4 {
+    color: #a99575;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    border-bottom: 1px solid #a99575;
+    font-size: 16px;
+    font-family: "Nunito Sans", sans-serif;
+}
+.db_why_buy_belgium {
+    margin-top: 80px;
+}
+
+/*    */
+
+.image-box {
+    overflow: hidden;
+    position: relative;
+}
+.image-box img {
+    transition: all .5s ease-out 0s;
+    -webkit-transition: all .5s ease-out 0s;
+    -moz-transition: all .5s ease-out 0s;
+    -o-transition: all .5s ease-out 0s;
+    width: 100%;
+    min-height: 750px;
+}
+
+.image-box:hover img {
+    transform: scale(1.1);
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+/* responsive css */
+
+@media (min-width: 320px) and (max-width: 767px) {
+    .db_space_one {
+        padding-top: 40px;
+    }
+    .bd_engement_content p {
+        width: 100%;
+    }
+    .bd_wedding_content p{
+        width:100%;
+    }
+    .db_headingtwo {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 1.5;
+        padding: 0 0 10px 0;
+    }
+    .bd_engement_content {
+        padding-top: 20px;
+    }
+    .db_shopnow {
+        margin-top: 25px;
+    }
+    .db_together_forever .row {
+        flex-direction: column-reverse;
+    }
+    .bd_wedding_content {
+        padding-top: 20px;
+    }
+    .db_why_buy_belgium {
+        padding: 50px 0;
+    }
+    .db_learnmore {
+        margin-top: 25px;
+    }
+    .db_why_buy_belgium {
+        margin-top: 40px;
+    }
+}
+@media (min-width:768px) and (max-width:991px) {
+    .db_shopnow {
+        margin-top: 19px;
+    }
+    .db_headingtwo {
+        padding: 0 0 11px 0;
+        font-size: 35px;
+    }
+    .bd_engement_content p {
+        width: 100%;
+    }
+    .bd_para_text {
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .db_pfyou .bd_para_text {
+       width: 100%;
+    }
+    .db_why_buy_belgium {
+        padding: 50px 0;
+    }
+    .db_learnmore {
+        margin-top: 25px;
+    }
+}
+@media (min-width:992px) and (max-width:1024px) {
+
+}
+@media (min-width:1025px) and (max-width:1199px) {
+
+}
+
+@media (min-width:1200px) and (max-width:1440px) {
+   
+}
+/* 150% */
+@media (min-width:1280px) and (max-width:1439px) {
+  
+    
+}
+/* 110% to 133%  */
+@media (min-width:1440px) and (max-width:1900px) {
+   
+}
+@media (min-width:1441px) and (max-width:1900px) {
+
+}
